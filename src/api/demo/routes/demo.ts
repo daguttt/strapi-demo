@@ -1,10 +1,12 @@
-export default [
-  {
-    method: 'GET',
-    path: '/api/demo',
-    handler: 'api::demo.demo.index',
-    config: {
-      auth: false,
+export default {
+  routes: [
+    {
+      method: 'GET',
+      path: '/demo',
+      handler: 'demo.index',
+      config: {
+        auth: false,
+      },
     },
-  },
-];
+  ],
+};
