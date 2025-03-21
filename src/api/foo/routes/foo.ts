@@ -3,7 +3,7 @@ export default {
     {
       method: 'GET',
       path: '/demo',
-      handler: 'demo.index',
+      handler: 'foo.index',
       config: {
         auth: false,
       },
