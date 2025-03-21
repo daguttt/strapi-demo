@@ -1,5 +1,5 @@
 export default {
-  async index(ctx, _next) {
+  async index(ctx) {
     ctx.body = { data: { message: 'Hello World' } };
   },
 };
