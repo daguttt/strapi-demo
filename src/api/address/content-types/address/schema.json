@@ -18,6 +18,12 @@
     "Country": {
       "type": "customField",
       "customField": "plugin::country-select.country"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "addresses"
     }
   }
 }
