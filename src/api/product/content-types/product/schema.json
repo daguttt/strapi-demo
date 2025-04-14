@@ -36,7 +36,8 @@
         "audios"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false
     }
   }
 }
